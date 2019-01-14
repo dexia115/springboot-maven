@@ -1,0 +1,14 @@
+server:
+  port: 9090
+  tomcat:
+    uri-encoding: UTF-8
+    max-http-post-size: 5120000
+spring: 
+  application:
+    name: spring-web
+  devtools:
+    restart:
+      enabled: false
+  datasource:
+    initialize: false
+
